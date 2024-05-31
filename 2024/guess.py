@@ -9,7 +9,7 @@ attempts = 6
 
 x = random.randint(lower, upper)
 
-print("\n\tYou have ", attempts," chances to guess the number!\n")
+print("\n\tYou have ", attempts," attempts to guess the number.\n")
 
 count = 1
 
@@ -18,13 +18,12 @@ while count < attempts:
     guess = int(input("Attemp #" + str(count) + " guess a number:- "))
 
     if x == guess:
-        print("Congratulations you did it in %d attempts" % count)
+        print("Congratulations! You guessed correctly.")
         break
     elif x > guess:
-        print("You guessed too small!")
+        print("You guessed too small.")
     elif x < guess:
-        print("You guessed too high!")
+        print("You guessed too high.")
 
-if count > attempts:
-    print("\nThe number is %d" % x)
-    print("\tBetter Luck Next time!")
+if count >= attempts:
+    print("Better luck next time! The number was %d." % x)

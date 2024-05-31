@@ -2,7 +2,7 @@
 
 Learning how to share and collaborate on code projects using Git and GitHub
 
-## Issues with the guess.py
+## Known issues with the guess.py
 
 1. Unused `import math` that should be removed.
 2. Attempts should initially be set to zero.
