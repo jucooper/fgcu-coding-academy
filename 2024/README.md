@@ -1,6 +1,6 @@
 # Code Collaboration with Git & GitHub
 
-Learning how to share and collaborate on code projects using Git and GitHub
+Learning how to share and collaborate on code projects using Git and GitHub.
 
 ## Known issues with the guess.py
 
