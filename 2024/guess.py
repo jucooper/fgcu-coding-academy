@@ -1,4 +1,5 @@
 # Students review the code and identify the bugs in the code and improvements that can be made.
+# The code is a simple number guessing game where the user has to guess a number between 1 and 50.
 
 import random
 import math
